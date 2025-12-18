@@ -1,0 +1,11 @@
+POST http://localhost:5000/users/login
+Content-Type: application/json
+
+{
+    "email" : "j@gmail.com",
+    "pass" : "123456"
+}
+
+###
+GET  http://localhost:5000/users/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZFVzZXIiOjIsIm5hbWUiOiJqaWRhbmUiLCJwcm9mZXNpIjoib3BlcmF0b3IiLCJyb2xlIjoib3BlcmF0b3IiLCJlbWFpbCI6ImpAZ21haWwuY29tIiwiaWF0IjoxNjcwMzIzMzcxLCJleHAiOjE2NzAzMjM0OTF9.zq45_ekrTSe2l6F3fm3Vbl7-zQdzCAcO-rxlehKFaOA
